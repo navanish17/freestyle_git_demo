@@ -11,7 +11,7 @@ pipeline {
                 echo 'Checking out source code...'
                 checkout([$class: 'GitSCM', 
                           branches: [[name: 'b1']], 
-                          userRemoteConfigs: [[url: 'https://github.com/dxtprashant07/newgit.git']]])
+                          userRemoteConfigs: [[url: 'https://github.com/navanish17/freestyle_git_demo.git']]])
             }
         }
 
